@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(bg.jpg);
+  background: no-repeat contain fixed padding-box border-box;
+}
+h1{
+    color: #e2e3f0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container {
+  width: 90vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 80px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.04), 0px 5px 4px rgba(3, 7, 18, 0.08),
+    0px 12px 9px rgba(3, 7, 18, 0.13), 0px 20px 15px rgba(3, 7, 18, 0.17),
+    0px 32px 24px rgba(3, 7, 18, 0.21);
+
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.search_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search_box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.search_box button{
+    padding: 15px 0;
+    width: 25%;
+    background: rgb(77,47,47);
+    background: linear-gradient(98deg, rgba(77,47,47,1) 30%, rgba(115,18,36,1) 100%);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.result{
+    position: relative;
+}
+.result h3{
+    font-size: 30px;
+    color: #1f194c;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+}
+.word-meaning{
+    color: #e2e3f0;
+}
+.word-example{
+    color: #e2e3f0;
+    font-style: italic;
+    border-left: 3px solid #fff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
